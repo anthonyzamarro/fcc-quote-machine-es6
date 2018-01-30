@@ -13,7 +13,7 @@ tweet.addEventListener('click', tweetQuote);
 }
 
 const getQuote = () => {
-  const url = 'http://quotes.stormconsultancy.co.uk/random.json';
+  const url = 'https://quotes.stormconsultancy.co.uk/random.json';
   let currentQuote, currentAuthor;
   fetch(url).then(function(response) {
     return response.json();
